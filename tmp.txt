@@ -1,0 +1,15 @@
+color: #353430;
+
+font-family: "IBM Plex Mono";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 23.4px; /* 130% */
+
+
+color: #353430;
+font-family: "IBM Plex Mono";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 23.4px; /* 130% */

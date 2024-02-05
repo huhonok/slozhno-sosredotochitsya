@@ -2,4 +2,123 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  background-image: url(../images/cover-image-light.png);
+  background-size: cover;
+  max-width: 1024px;
+  /* margin: auto; */
+}
+
+.decorated-zone {
+  /* padding: 20px; */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__theme-menu {
+  padding: 0px 397px;
+  box-sizing: border-box;
+}
+
+.header__theme-menu-list {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+.header__theme-menu-item {
+}
+
+.header__theme-menu-button {
+  box-sizing: border-box;
+  padding: 0px 13px;
+  background-color: transparent;
+  border: 0;
+  text-transform: lowercase;
+  text-align: center;
+  font-family: "IBM Plex Mono";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  color: #353430;
+  line-height: 18px; /* 100% */
+}
+
+.header__theme-menu-button:hover {
+  outline: 1px solid #000;
+  outline-offset: 1px;
+}
+
+.header__theme-menu-button:focus {
+  text-decoration: underline;
+}
+
+.header__title {
+  box-sizing: border-box;
+  color: #ffc2e6;
+  text-shadow: 4px 4px 0px #ff0070;
+  font-family: "IBM Plex Mono";
+  font-size: 157px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 82.5%; /* 129.525px */
+  padding: 273px 265px 114px 0px;
+}
+
+.paragraph__section {
+  display: flex;
+  padding: 0px 20px 134px 513px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.paragraph__title {
+  max-width: 491px;
+  max-height: 71px;
+  color: #353430;
+  font-family: "IBM Plex Mono";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23.4px; /* 130% */
+  background-color: #ff8dcb;
+}
+.body__section__container {
+  display: grid;
+  grid-template-columns: 315px, 500px; /*repeat(auto-fit, minmax(315px, 1fr));*/
+  gap: 20px;
+}
+
+.body__section__container__article__text {
+  color: #353430;
+  font-family: "IBM Plex Mono";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23.4px; /* 130% */
+
+
+}
+
+.paragraph__question {
+  color: #353430;
+  font-family: "IBM Plex Mono";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23.4px; /* 130% */
+}
+
+.paragraph__subtitle{
+  color: #353430;
+  font-family: "IBM Plex Mono";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23.4px; /* 130% */
+  background-color: #ff8dcb;
+}
+
+.article__class {
+
 }
