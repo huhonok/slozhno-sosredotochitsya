@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="color-scheme" content="light" />
+    <meta name="color-scheme" content="light dark" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/dark.css" />
     <link rel="stylesheet" href="./styles/light.css" />
+    <link rel="stylesheet" href="./styles/dark.css" />
+
 
     <title>Сложно сосредоточиться</title>
   </head>
@@ -43,15 +44,14 @@
         </ul>
       </nav>
       <h1 class="header__title">no focus</h1>
-      <section class="paragraph__section">
-        <h2 class="paragraph__title">
-          Что делать, когда не можешь делать ничего<br />
-          Или почему нам так сложно сконцентрироваться, особенно когда очень
-          надо
-        </h2>
-      </section>
+      <!-- <section class="paragraph__section"> -->
+      <h2 class="paragraph__title">
+        Что делать, когда не можешь делать ничего<br />
+        Или почему нам так сложно сконцентрироваться, особенно когда очень надо
+      </h2>
+      <!-- </section> -->
     </header>
-    <main>
+    <main class="main">
       <section class="body__section__container">
         <div class="paragraph__question">Почему сосредоточиться так сложно</div>
         <div>
@@ -176,9 +176,23 @@
           </p>
         </article>
       </section>
-      <section class="body__section__container"></section>
+      <section class="body__section__container">
+        <article>
+          <h2 class="paragraph__title">А можно в картинках?</h2>
+          <div class="galery">
+            <img src="images/sunset.png" alt="закат" class="picture"/>
+            <img src="images/ice-cream.png" alt="мороженое"  class="picture"/>
+            <img src="images/tape.png" alt="касета"  class="picture"/>
+            <img src="images/books.png" alt="стопка книг"  class="picture"/>
+            <img src="images/street.png" alt="улица" class="picture" />
+          </div>
+        </article>
+      </section>
     </main>
-    <footer></footer>
+    <footer class=" footer decorated-zone"> 
+
+           <h1 class="header__title">focus</h1>
+    </footer >
 
     <script src="./scripts/script.js"></script>
   </body>
