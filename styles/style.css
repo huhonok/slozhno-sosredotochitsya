@@ -11,6 +11,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 40px;
+  background-attachment: fixed;
 }
 
 .header {
@@ -63,8 +64,8 @@
   gap: 10px;
 }
 
-.header__theme-menu-item {
-}
+/* .header__theme-menu-item {
+} */
 
 .header__theme-menu-button {
   box-sizing: border-box;
@@ -155,14 +156,13 @@
   background-color: #ff8dcb;
 }
 
-.article__class {
-}
+/* .article__class {
+} */
 
 .galery {
   display: grid;
   max-width: 100%-20px;
   gap: 10px;
-  /* grid-template-columns: repeat(auto-fill, 300px); */
 }
 .picture {
   width: 100%;
