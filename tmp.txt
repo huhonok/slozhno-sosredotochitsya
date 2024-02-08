@@ -1,155 +1,59 @@
+/* Decorations */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 375px;
+height: 667px;
+left: calc(50% - 375px/2);
+top: calc(50% - 667px/2 - 0.5px);
+
+
+
 /* Group */
 
 width: 355px;
-height: 949px;
+height: 647px;
 
 
 /* Inside auto layout */
 flex: none;
-order: 2;
+order: 0;
 align-self: stretch;
-flex-grow: 0;
-z-index: 2;
+flex-grow: 1;
 
 
-/* Дофамин */
+/* Rectangle 77 */
+
+box-sizing: border-box;
 
 position: absolute;
-width: 355px;
-height: 431px;
+width: 25px;
+height: 25px;
+left: 340px;
+top: 10px;
+
+border-width: 1px 1px 0px 0px;
+border-style: solid;
+border-color: #FF0070;
+
+
+/* Rectangle 79 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 25px;
+height: 25px;
 left: 10px;
-top: 518px;
+top: 632px;
 
-
-
-/* С гормонами стресса всё понятно, но дальше — ещё интереснее. В нашей невозможности сосредоточиться замешана и полная противоположность стрессу — дофамин. Это вещество участвует в системе вознаграждения мозга. Причём тут он? Мы часто отвлекаемся от важной задачи на что-то более «приятное» для мозгов. Например, смотрим лайки в соцсетях. В это время и выделяется дофамин — и мы чувствуем удовольствие. Получается замкнутый круг: чем больше отвлекаешься, тем больше удовольствия получаешь. */
-
-position: absolute;
-width: 351.03px;
-height: 398px;
-right: 13.97px;
-top: 551px;
-
-font-family: 'IBM Plex Mono';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 23px;
-/* or 130% */
-
-color: #353430;
-
-
-
-/* Дофамин */
-
-position: absolute;
-width: 355px;
-height: 23px;
-right: 10px;
-top: 518px;
-
-font-family: 'IBM Plex Mono';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 23px;
-/* or 130% */
-
-color: #353430;
-
-
-
-/* Многозадачность */
-
-position: absolute;
-width: 355px;
-height: 431px;
-left: 10px;
-top: 67px;
-
-
-
-/* Group */
-
-position: absolute;
-width: 351.03px;
-height: 398px;
-left: 10px;
-top: 100px;
-
-
-
-/* Link effects */
-
-position: absolute;
-width: 89.98px;
-height: 23px;
-left: 11.99px;
-top: 289px;
-
-font-family: 'IBM Plex Mono';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 23px;
-
-color: #FF8DCB;
-
-
-
-/* Особенно сложно сосредоточиться, когда задач много и все они — важные. Где же легендарная многозадачность, когда она так нужна вам (и всем нанимающим менеджерам этого мира)? А дело в том, что её просто не существует. Исследователи выяснили, что мозгу тяжело концентрироваться даже на двух делах одновременно. А когда в поле внимания попадает несколько важных задач, организм паникует и выделяет кортизол и адреналин — «гормоны стресса». Из-за этого мы работаем невнимательно: ошибаемся и быстро устаём. */
-
-position: absolute;
-width: 351.03px;
-height: 398px;
-right: 13.97px;
-top: 100px;
-
-font-family: 'IBM Plex Mono';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 23px;
-/* or 130% */
-
-color: #353430;
-
-
-
-/* Многозадачность */
-
-position: absolute;
-width: 355px;
-height: 23px;
-right: 10px;
-top: 67px;
-
-font-family: 'IBM Plex Mono';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 23px;
-/* or 130% */
-
-color: #353430;
-
-
-
-/* Title 2 */
-
-position: absolute;
-width: 355px;
-height: 47px;
-left: 10px;
-top: 0px;
-
-font-family: 'IBM Plex Mono';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 23px;
-/* or 130% */
-
-color: #353430;
-
+border-width: 0px 0px 1px 1px;
+border-style: solid;
+border-color: #FF0070;

@@ -2,3 +2,23 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  /* Переменные светлой темы */
+  --page-background-color: #fff1f7;
+  --title-font-color: #ffc2e6;
+  --accent-color: #ff8dcb;
+  --subtitle-font-color: #353430;
+  --article-font-color: #353430;
+  --main-section-title-font-color: var( --subtitle-font-color);
+
+
+
+  /* --title-background-color: #ff8dcb; */
+  --font-family: "IBM Plex Mono", sans-serif;
+  --font-style: normal;
+  --font-size: 18px;
+  --line-height: 23.4px;
+  --background-image-url: url(../images/cover-image-light.png);
+  --border-style: 1px solid #000;
+}
