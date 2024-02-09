@@ -1,59 +1,1055 @@
-/* Decorations */
+/* Main */
+
+position: absolute;
+width: 1024px;
+height: 3352px;
+left: 0px;
+top: 828px;
+
+
+
+/* Section */
 
 /* Auto layout */
 display: flex;
 flex-direction: column;
-justify-content: center;
 align-items: center;
-padding: 10px;
-gap: 10px;
+padding: 0px 20px;
+isolation: isolate;
 
 position: absolute;
-width: 375px;
-height: 667px;
-left: calc(50% - 375px/2);
-top: calc(50% - 667px/2 - 0.5px);
+width: 1024px;
+height: 1091px;
+left: 0px;
+top: 3089px;
 
+
+
+/* Rectangle 62 */
+
+position: absolute;
+width: 984px;
+height: 23px;
+left: 20px;
+top: 0px;
+
+background: #FF8DCB;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
 
 
 /* Group */
 
-width: 355px;
-height: 647px;
+width: 984px;
+height: 1091px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+z-index: 1;
+
+
+/* 2107.w026.n002.597B.p1 */
+
+position: absolute;
+width: 649px;
+height: 260px;
+left: 20.24px;
+top: 43px;
+
+background: url(2107.w026.n002.597B.p1.jpg);
+
+
+/* 72538572 */
+
+position: absolute;
+width: 315px;
+height: 595px;
+right: 20px;
+top: 43px;
+
+background: url(72538572.png);
+
+
+/* 5211598 */
+
+position: absolute;
+width: 315px;
+height: 768px;
+left: 20.24px;
+top: 323px;
+
+background: url(5211598.jpg);
+
+
+/* 4248613 */
+
+position: absolute;
+width: 649px;
+height: 428px;
+right: 20px;
+top: 663px;
+
+background: url(4248613.jpg);
+
+
+/* 6891867 */
+
+position: absolute;
+width: 315px;
+height: 315px;
+left: calc(50% - 315px/2 + 0.5px);
+top: 323px;
+
+background: url(6891867.jpg);
+
+
+/* А можно в картинках? */
+
+position: absolute;
+width: 984px;
+height: 23px;
+left: 20px;
+top: 0px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+/* or 130% */
+
+color: #353430;
+
+
+
+/* Section */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 20px;
+isolation: isolate;
+
+position: absolute;
+width: 1024px;
+height: 1015px;
+left: 0px;
+top: 1994px;
+
+
+
+/* Rectangles */
+
+position: absolute;
+width: 649px;
+height: 888px;
+left: 355px;
+top: 0px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Rectangle 65 */
+
+position: absolute;
+width: 649px;
+height: 23px;
+left: 355px;
+top: 0px;
+
+background: #FF8DCB;
+
+
+/* Rectangle 64 */
+
+position: absolute;
+width: 649px;
+height: 23px;
+left: 355px;
+top: 43px;
+
+background: #FF8DCB;
+
+
+/* Rectangle 63 */
+
+position: absolute;
+width: 649px;
+height: 23px;
+left: 355px;
+top: 307px;
+
+background: #FF8DCB;
+
+
+/* Rectangle 61 */
+
+position: absolute;
+width: 649px;
+height: 24px;
+left: 355px;
+top: 477px;
+
+background: #FF8DCB;
+
+
+/* Rectangle 60 */
+
+position: absolute;
+width: 649px;
+height: 24px;
+left: 355px;
+top: 694px;
+
+background: #FF8DCB;
+
+
+/* Rectangle 62 */
+
+position: absolute;
+width: 649px;
+height: 23px;
+left: 355px;
+top: 865px;
+
+background: #FF8DCB;
+
+
+/* Group */
+
+width: 984px;
+height: 1015px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 20px;
+
+position: absolute;
+width: 649px;
+height: 1015px;
+right: 20px;
+top: 0px;
+
+
+
+/* 5 простых (на самом деле не очень) советов */
+
+width: 649px;
+height: 23px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+/* or 130% */
+
+color: #353430;
 
 
 /* Inside auto layout */
 flex: none;
 order: 0;
 align-self: stretch;
+flex-grow: 0;
+
+
+/* Представьте небо */
+
+width: 649px;
+height: 244px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Или листья в ручье. Тут дело в лёгкой медитации, которая помогает успокоиться. Ведь часто именно тревожные мысли о сложных задачах как раз и мешают эти сложные задачи делать. В такие моменты можно закрыть глаза и представить, что чистое небо — это вы, а облака — тревожные мысли. И сколько бы их ни было — ясное небо всегда будет где-то там, за тучами, и никуда не денется. Это упражнение поможет вернуться в настоящий момент, а не волноваться о потенциальных проблемах из будущего. */
+
+position: absolute;
+width: 647.55px;
+height: 211px;
+left: 0px;
+top: 76px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+/* or 130% */
+
+color: #353430;
+
+
+
+/* Представьте небо и облака */
+
+position: absolute;
+width: 649px;
+height: 23px;
+left: 0px;
+top: 43px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+/* or 130% */
+
+color: #353430;
+
+
+
+/* Включите музыку */
+
+width: 649px;
+height: 150px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Но не любую, и не любимую. Любимая может быть связана с сильными положительными эмоциями, которые тоже очень сильно отвлекают. Подойдёт тихая, спокойная, умеренно-ритмичная. Можно вообще попробовать включить плейлист в «белым шумом» или нейромузыкой. */
+
+position: absolute;
+width: 649px;
+height: 117px;
+left: 0px;
+top: 340px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+/* or 130% */
+
+color: #353430;
+
+
+
+/* Включите музыку */
+
+position: absolute;
+width: 649px;
+height: 23px;
+left: 0px;
+top: 307px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+/* or 130% */
+
+color: #353430;
+
+
+
+/* Прогуляйтесь */
+
+width: 649px;
+height: 197px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Или даже... */
+
+position: absolute;
+width: 649px;
+height: 164px;
+left: 0px;
+top: 510px;
+
+
+
+/* Link effects */
+
+position: absolute;
+width: 77.01px;
+height: 23px;
+left: 132.25px;
+top: 536px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+
+color: #FF8DCB;
+
+
+
+/* Или даже пробегитесь. Лучше найти парк или лес: один эксперимент показал, что созерцание природы повышает концентрацию, в то время как после просмотра городских пейзажей она наоборот понижается. Можно совместить прогулку с физическими упражнениями или бегом — так в мозг поступит ещё больше кислорода и он будет лучше работать. Но и простая двадцатиминутная прогулка — тоже отличный вариант. */
+
+position: absolute;
+width: 649px;
+height: 164px;
+left: 0px;
+top: 510px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+/* or 130% */
+
+color: #353430;
+
+
+
+/* Прогуляйтесь */
+
+position: absolute;
+width: 649px;
+height: 23px;
+left: 0px;
+top: 477px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+/* or 130% */
+
+color: #353430;
+
+
+
+/* Хорошо ешьте */
+
+width: 649px;
+height: 151px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Мы — не ваша бабушка, но это правда важно. Выбирайте продукты, которые препятствуют резким скачкам сахара в крови. Например, с высоким содержанием клетчатки: овощи, ягоды, бобовые (нут, чечевица, фасоль), коричневый рис, хлеб из цельнозерновой пшеницы. */
+
+position: absolute;
+width: 649px;
+height: 118px;
+left: 0px;
+top: 727px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+/* or 130% */
+
+color: #353430;
+
+
+
+/* Хорошо ешьте */
+
+position: absolute;
+width: 649px;
+height: 23px;
+left: 0px;
+top: 694px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+/* or 130% */
+
+color: #353430;
+
+
+
+/* Читайте */
+
+width: 649px;
+height: 150px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Настоящие бумажные книги. Это правда помогает с концентрацией: чтобы прочитать пост в соцсети, достаточно нескольких минут или даже секунд. А вот интересная книга способна затянуть и на несколько часов и круто тренирует направленное внимание. */
+
+position: absolute;
+width: 649px;
+height: 117px;
+left: 0px;
+top: 898px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+/* or 130% */
+
+color: #353430;
+
+
+
+/* Читайте */
+
+position: absolute;
+width: 649px;
+height: 23px;
+left: 0px;
+top: 865px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+/* or 130% */
+
+color: #353430;
+
+
+
+/* Title 2 */
+
+position: absolute;
+width: 315px;
+height: 98px;
+left: 20px;
+top: 0px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+/* or 130% */
+
+color: #353430;
+
+
+
+/* Section */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 20px;
+isolation: isolate;
+
+position: absolute;
+width: 1024px;
+height: 498px;
+left: 0px;
+top: 1416px;
+
+
+
+/* Rectangles */
+
+position: absolute;
+width: 984px;
+height: 23px;
+left: 20px;
+top: 67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Rectangle 59 */
+
+position: absolute;
+width: 315px;
+height: 23px;
+left: 20px;
+top: 67px;
+
+background: #FF8DCB;
+
+
+/* Rectangle 58 */
+
+position: absolute;
+width: 315px;
+height: 23px;
+left: 355px;
+top: 67px;
+
+background: #FF8DCB;
+
+
+/* Rectangle 57 */
+
+position: absolute;
+width: 315px;
+height: 23px;
+left: 689px;
+top: 67px;
+
+background: #FF8DCB;
+
+
+/* Group */
+
+width: 984px;
+height: 498px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+position: absolute;
+width: 984px;
+height: 431px;
+left: 20px;
+top: 67px;
+
+
+
+/* Многозадачность */
+
+width: 315px;
+height: 384px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Многозадачность */
+
+position: absolute;
+width: 315px;
+height: 23px;
+left: 0px;
+top: 0px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+/* or 130% */
+
+color: #353430;
+
+
+
+/* Как концентрация может снижаться из-за… концентрации? Любая стрессовая ситуация (и резко меняющийся мир в целом) заставляет наш мозг постоянно «сканировать» окружающую среду на предмет опасности. Например, читать новости вместо работы. Но быть собранными всё время — невозможно. Концентрация — мышца, и она может не выдержать, если не давать ей отдохнуть. */
+
+position: absolute;
+width: 315px;
+height: 351px;
+left: 0px;
+top: 33px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+/* or 130% */
+
+color: #353430;
+
+
+
+/* Еда */
+
+width: 315px;
+height: 361px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Еда */
+
+position: absolute;
+width: 315px;
+height: 23px;
+left: 335px;
+top: 0px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+/* or 130% */
+
+color: #353430;
+
+
+
+/* «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно доставляют в мозг энергию и помогают ему лучше работать. Но уходит эта энергия также быстро, как и приходит. А мы в результате попадаем на «углеводные качели»: как только действие «быстрых углеводов» заканчивается, мы чувствуем усталость и сонливость. И хотим ещё больше быстрых углеводов. */
+
+position: absolute;
+width: 315px;
+height: 328px;
+left: 335px;
+top: 33px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+/* or 130% */
+
+color: #353430;
+
+
+
+/* Гаджеты */
+
+width: 315px;
+height: 431px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Гаджеты */
+
+position: absolute;
+width: 315px;
+height: 23px;
+left: 670px;
+top: 0px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+/* or 130% */
+
+color: #353430;
+
+
+
+/* Да-да, это та самая ситуация, когда на экране ноутбука — код, в наушниках — подкаст, а на компьютере фоном — ещё и видео с забавными утятами. В результате мозг пытается переключиться с одной задачи на другую — и просто не может. А чтобы вернуться к состоянию полной концентрации, человеку в среднем нужно 20 минут. Вот и получается, что чем больше времени мы проводим в гаджетах, тем больше времени затем нужно, чтобы вернуться к работе. */
+
+position: absolute;
+width: 315px;
+height: 398px;
+left: 670px;
+top: 33px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+/* or 130% */
+
+color: #353430;
+
+
+
+/* Title 2 */
+
+position: absolute;
+width: 315px;
+height: 47px;
+left: 20px;
+top: 0px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+/* or 130% */
+
+color: #353430;
+
+
+
+/* Section */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 20px;
+isolation: isolate;
+
+position: absolute;
+width: 1024px;
+height: 508px;
+left: 0px;
+top: 828px;
+
+
+
+/* Rectangle 56 */
+
+position: absolute;
+width: 649px;
+height: 23px;
+left: 355px;
+top: 0px;
+
+background: #FF8DCB;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Rectangle 55 */
+
+position: absolute;
+width: 649px;
+height: 23px;
+left: 355px;
+top: 264px;
+
+background: #FF8DCB;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Group */
+
+width: 984px;
+height: 508px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
 flex-grow: 1;
+z-index: 2;
 
 
-/* Rectangle 77 */
-
-box-sizing: border-box;
-
-position: absolute;
-width: 25px;
-height: 25px;
-left: 340px;
-top: 10px;
-
-border-width: 1px 1px 0px 0px;
-border-style: solid;
-border-color: #FF0070;
-
-
-/* Rectangle 79 */
-
-box-sizing: border-box;
+/* Дофамин */
 
 position: absolute;
-width: 25px;
-height: 25px;
-left: 10px;
-top: 632px;
+width: 648.92px;
+height: 244px;
+left: 355.08px;
+top: 264px;
 
-border-width: 0px 0px 1px 1px;
-border-style: solid;
-border-color: #FF0070;
+
+
+/* С гормонами стресса всё понятно, но дальше — ещё интереснее. В нашей невозможности сосредоточиться замешана и полная противоположность стрессу — дофамин. Это вещество участвует в системе вознаграждения мозга. Причём тут он? Мы часто отвлекаемся от важной задачи на что-то более «приятное» для мозгов. Например, смотрим лайки в соцсетях. В это время и выделяется дофамин — и мы чувствуем удовольствие. Получается замкнутый круг: чем больше отвлекаешься, тем больше удовольствия получаешь. */
+
+position: absolute;
+width: 648.92px;
+height: 211px;
+right: 20px;
+top: 297px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+/* or 130% */
+
+color: #353430;
+
+
+
+/* Дофамин */
+
+position: absolute;
+width: 648.92px;
+height: 23px;
+right: 20px;
+top: 264px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+/* or 130% */
+
+color: #353430;
+
+
+
+/* Многозадачность */
+
+position: absolute;
+width: 648.92px;
+height: 244px;
+right: 20.19px;
+top: 0px;
+
+
+
+/* Group */
+
+position: absolute;
+width: 648.92px;
+height: 211px;
+left: 354.89px;
+top: 33px;
+
+
+
+/* Link effects */
+
+position: absolute;
+width: 89.08px;
+height: 23px;
+left: 896.54px;
+top: 106px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+
+color: #FF8DCB;
+
+
+
+/* Особенно сложно сосредоточиться, когда задач много и все они — важные. Где же легендарная многозадачность, когда она так нужна вам (и всем нанимающим менеджерам этого мира)? А дело в том, что её просто не существует. Исследователи выяснили, что мозгу тяжело концентрироваться даже на двух делах одновременно. А когда в поле внимания попадает несколько важных задач, организм паникует и выделяет кортизол и адреналин — «гормоны стресса». Из-за этого мы работаем невнимательно: ошибаемся и быстро устаём. */
+
+position: absolute;
+width: 648.92px;
+height: 211px;
+right: 20.19px;
+top: 33px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+/* or 130% */
+
+color: #353430;
+
+
+
+/* Многозадачность */
+
+position: absolute;
+width: 648.92px;
+height: 23px;
+right: 20.19px;
+top: 0px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+/* or 130% */
+
+color: #353430;
+
+
+
+/* Title 2 */
+
+position: absolute;
+width: 314.96px;
+height: 47px;
+left: 20px;
+top: 0px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+/* or 130% */
+
+color: #353430;
+
