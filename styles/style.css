@@ -247,6 +247,7 @@
 .main__gallery {
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
 
 @media (min-width: 375px) and (max-width: 768px) {
@@ -272,6 +273,7 @@
   }
   .header__title {
     margin-left: -20px;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
   .second__section .paragraph__question {
     max-width: 236px;
@@ -287,6 +289,15 @@
     "sunset sunset ice-cream"
     "tape books ice-cream"
     "tape street street";
+  }
+  .main__gallery{
+    gap: 20px;
+  }
+  .main {
+    gap: 80px;
+  }
+  .page {
+    gap: 60px;
   }
 }
 
@@ -313,6 +324,7 @@
   }
   .header__title {
     margin-left: -20px;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
   .second__section .paragraph__question {
     max-width: 315px;
@@ -328,5 +340,14 @@
     "sunset sunset ice-cream"
     "tape books ice-cream"
     "tape street street";
+  }
+  .main__gallery{
+    gap: 20px;
+  }
+  .main {
+    gap: 80px;
+  }
+  .page {
+    gap: 60px;
   }
 }
