@@ -284,13 +284,14 @@
   .galery {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    height: 823px;
+    height: 780px;
     grid-template-areas:
     "sunset sunset ice-cream"
     "tape books ice-cream"
     "tape street street";
   }
-  .main__gallery{
+
+  .main__gallery {
     gap: 20px;
   }
   .main {
@@ -335,13 +336,13 @@
   .galery {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    height: 1091px;
+    height: 1048px;
     grid-template-areas:
     "sunset sunset ice-cream"
     "tape books ice-cream"
     "tape street street";
   }
-  .main__gallery{
+  .main__gallery {
     gap: 20px;
   }
   .main {
