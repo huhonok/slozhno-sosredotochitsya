@@ -36,6 +36,7 @@
 }
 
 .decorated-text {
+  display: var(--display-element-value);
   position: absolute;
   top: var(--padding);
   right: calc(var(--padding) + 28px);
@@ -60,9 +61,9 @@
   right: -18px;
 }
 
-.theme_light .decorated-text {
+/* .theme_light .decorated-text {
   display: none;
-}
+} */
 
 .decorated-zone {
   position: relative;

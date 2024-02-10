@@ -24,6 +24,7 @@
   --background-image-url: url(../images/cover-image-dark.png);
 
   --border-style: 1px solid #ff0070;
+  --display-element-value: block;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -45,5 +46,6 @@
     --background-image-url: url(../images/cover-image-dark.png);
 
     --border-style: 1px solid #ff0070;
+    --display-element-value: block;
   }
 }
