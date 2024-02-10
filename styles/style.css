@@ -88,15 +88,6 @@
   min-height: 26px;
 }
 
-.header__theme-menu-button:hover {
-  outline: var(--border-style);
-  outline-offset: -1px;
-}
-
-.header__theme-menu-button:focus {
-  text-decoration: underline;
-}
-
 .header__title {
   box-sizing: border-box;
   color: var(--title-font-color);
@@ -235,18 +226,26 @@
   flex-direction: column;
   gap: 10px;
 }
+.header__theme-menu-button:hover {
+  outline: var(--border-style);
+  outline-offset: -1px;
+}
 
 .header__theme-menu-button:focus {
   outline: none;
-  text-underline-offset: 5px;
+  text-decoration: underline;
 }
+/* .header__theme-menu-button:focus {
+  outline: none;
+  text-underline-offset: 5px;
+} */
 
-.header__theme-menu-button:hover {
+/* .header__theme-menu-button:hover {
   outline: none;
   text-decoration: none;
   outline: 1px solid var(--article-font-color);
   outline-offset: -1px;
-}
+} */
 
 .article_link_decoration {
   outline: none;
@@ -318,6 +317,7 @@
     /* grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr); */
     /* max-height: 780px;  */
+    gap: 20px;
     grid-template-areas:
       "sunset sunset ice-cream"
       "tape books ice-cream"
@@ -370,6 +370,7 @@
     /* grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr); */
     /* max-height: 1048px; */
+    gap: 20px;
     grid-template-areas:
       "sunset sunset ice-cream"
       "tape books ice-cream"
