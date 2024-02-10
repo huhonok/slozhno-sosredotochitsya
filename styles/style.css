@@ -276,9 +276,8 @@
   .header__title {
     margin-left: 0px;
   }
-  
 }
-@media (min-width: 768px)  {
+@media (min-width: 768px) {
   :root {
     --padding: 20px;
   }
