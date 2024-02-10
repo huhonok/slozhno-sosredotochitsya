@@ -24,12 +24,6 @@
 }
 
 .header {
-  /* padding: var(--padding) var(--padding);
-  display: grid;
-  align-items: center;
-  justify-items: end;
-  height: 100vh;
-  min-height: 668px; */
   grid-template-rows: 1fr min-content 1fr;
 }
 
@@ -85,7 +79,7 @@
 }
 
 .header__theme-menu {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   align-self: center;
 }
 
@@ -108,7 +102,7 @@
   font-style: var(--font-style);
   font-weight: 400;
   color: var(--main-section-title-font-color);
-  line-height: 18px; /* 100% */
+  line-height: 18px;
   min-height: 26px;
 }
 
@@ -282,12 +276,37 @@
   .header__title {
     margin-left: 0px;
   }
+  
 }
-
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px)  {
   :root {
     --padding: 20px;
   }
+  .header__title {
+    margin-left: -20px;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+  .galery {
+    gap: 20px;
+    grid-template-areas:
+      "sunset sunset ice-cream"
+      "tape books ice-cream"
+      "tape street street";
+  }
+  .main__gallery {
+    gap: 20px;
+  }
+  .main {
+    gap: 80px;
+  }
+  .page {
+    gap: 60px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* :root {
+    --padding: 20px;
+  } */
 
   .header,
   .footer {
@@ -299,10 +318,10 @@
   .header__paragraph__title {
     max-width: 364px;
   }
-  .header__title {
+  /* .header__title {
     margin-left: -20px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  }
+  } */
   .second__section .paragraph__question {
     max-width: 236px;
   }
@@ -324,15 +343,15 @@
   .street {
     max-height: 318px;
   }
-  .galery {
+  /* .galery {
     gap: 20px;
     grid-template-areas:
       "sunset sunset ice-cream"
       "tape books ice-cream"
       "tape street street";
-  }
+  } */
 
-  .main__gallery {
+  /* .main__gallery {
     gap: 20px;
   }
   .main {
@@ -340,13 +359,13 @@
   }
   .page {
     gap: 60px;
-  }
+  } */
 }
 
 @media (min-width: 1024px) {
-  :root {
+  /* :root {
     --padding: 20px;
-  }
+  } */
   .header__theme-menu {
     align-self: flex-start;
     justify-self: center;
@@ -364,24 +383,24 @@
   .header__paragraph__title {
     max-width: 491px;
   }
-  .header__title {
+  /* .header__title {
     margin-left: -20px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  }
+  } */
   .second__section .paragraph__question {
     max-width: 315px;
   }
   .horizontal__articles {
     grid-template-columns: repeat(3, 1fr);
   }
-  .galery {
+  /* .galery {
     gap: 20px;
     grid-template-areas:
       "sunset sunset ice-cream"
       "tape books ice-cream"
       "tape street street";
-  }
-  .main__gallery {
+  } */
+  /* .main__gallery {
     gap: 20px;
   }
   .main {
@@ -389,7 +408,7 @@
   }
   .page {
     gap: 60px;
-  }
+  } */
   .sunset {
     max-height: 260px;
   }
