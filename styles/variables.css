@@ -22,4 +22,5 @@
   --background-image-url: url(../images/cover-image-light.png);
   --border-style: 1px solid #000;
   --padding: 10px;
+  --display-element-value: none;
 }
