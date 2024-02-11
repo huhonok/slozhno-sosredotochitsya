@@ -254,7 +254,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: var(--border-style);
+  outline: var(--menu-button-border-style);
   outline-offset: -1px;
 }
 
@@ -279,7 +279,6 @@
   text-decoration: underline;
 }
 
-
 @media (min-width: 375px) and (max-width: 768px) {
   .header__title {
     margin-left: 0px;
@@ -290,7 +289,7 @@
   :root {
     --padding: 20px;
   }
-  
+
   .header__title {
     margin-left: -20px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -393,19 +392,19 @@
   .sunset {
     max-height: 260px;
   }
-  
+
   .ice-cream {
     max-height: 595px;
   }
-  
+
   .tape {
     max-height: 768px;
   }
-  
+
   .books {
     max-height: 315px;
   }
-  
+
   .street {
     max-height: 428px;
   }

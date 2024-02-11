@@ -24,13 +24,12 @@
   --background-image-url: url(../images/cover-image-dark.png);
 
   --border-style: 1px solid #ff0070;
+  --menu-button-border-style: 1px solid rgba(255, 0, 112, 0.4);
   --display-element-value: block;
 }
 
 @media (prefers-color-scheme: dark) {
-
   :root {
-    
     /* Дублируем переменные темной темы */
     --page-background-color: #000028;
     --title-font-color: #db00ff;
@@ -46,6 +45,7 @@
     --background-image-url: url(../images/cover-image-dark.png);
 
     --border-style: 1px solid #ff0070;
+    --menu-button-border-style: 1px solid rgba(255, 0, 112, 0.4);
     --display-element-value: block;
   }
 }

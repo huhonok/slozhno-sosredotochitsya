@@ -14,7 +14,7 @@
   --accent-color: #ff8dcb;
   --subtitle-font-color: #353430;
   --article-font-color: #353430;
-  --main-section-title-font-color: var( --subtitle-font-color);
+  --main-section-title-font-color: var(--subtitle-font-color);
 
   --font-family: "IBM Plex Mono", sans-serif;
   --font-style: normal;
@@ -22,5 +22,6 @@
   --line-height: 23.4px;
   --background-image-url: url(../images/cover-image-light.png);
   --border-style: 1px solid #000;
+  --menu-button-border-style: 1px solid rgba(50, 49, 45, 0.4);
   --display-element-value: none;
 }
