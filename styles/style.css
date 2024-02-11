@@ -7,6 +7,7 @@
   background-image: var(--background-image-url);
   background-attachment: fixed;
   background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -39,6 +40,7 @@
   font-weight: 400;
   line-height: 25px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .decorated-text::after {
@@ -63,6 +65,7 @@
   border-bottom: var(--border-style);
   border-left: var(--border-style);
 }
+
 .decorated-zone::after {
   top: var(--padding);
   right: var(--padding);
@@ -162,6 +165,7 @@
   line-height: var(--line-height); /* 130% */
   background-color: var(--accent-color);
 }
+
 .galery {
   display: grid;
   gap: 10px;
@@ -174,6 +178,7 @@
     "books"
     "street";
 }
+
 .sunset {
   grid-area: sunset;
 }
@@ -230,19 +235,23 @@
   grid-template-columns: 1fr;
   gap: 20px;
 }
+
 .header__paragraph__title {
   width: 100%;
 }
+
 .second__section {
   display: grid;
   gap: 20px;
   grid-template-rows: min-content 1fr;
 }
+
 .main__gallery {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
+
 .header__theme-menu-button:hover {
   outline: var(--border-style);
   outline-offset: -1px;
@@ -263,6 +272,7 @@
   outline: 1px solid var(--article-font-color);
   outline-offset: -1px;
 }
+
 .article_link_decoration:hover {
   text-decoration: underline;
 }
@@ -276,14 +286,17 @@
     margin-left: 0px;
   }
 }
+
 @media (min-width: 768px) {
   :root {
     --padding: 20px;
   }
+  
   .header__title {
     margin-left: -20px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
+
   .galery {
     gap: 20px;
     grid-template-areas:
@@ -291,12 +304,15 @@
       "tape books ice-cream"
       "tape street street";
   }
+
   .main__gallery {
     gap: 20px;
   }
+
   .main {
     gap: 80px;
   }
+
   .page {
     gap: 60px;
   }
@@ -306,30 +322,39 @@
   .footer {
     min-height: 1024px;
   }
+
   .body__section__container {
     grid-template-columns: 236px 1fr;
   }
+
   .header__paragraph__title {
     max-width: 364px;
   }
+
   .second__section .paragraph__question {
     max-width: 236px;
   }
+
   .horizontal__articles {
     grid-template-columns: 1fr;
   }
+
   .sunset {
     max-height: 192px;
   }
+
   .ice-cream {
     max-height: 441px;
   }
+
   .tape {
     max-height: 568px;
   }
+
   .books {
     max-height: 230px;
   }
+
   .street {
     max-height: 318px;
   }
@@ -340,37 +365,48 @@
     align-self: flex-start;
     justify-self: center;
   }
+
   .header__theme-menu-list {
     flex-direction: row;
   }
+
   .header,
   .footer {
     min-height: 768px;
   }
+
   .body__section__container {
     grid-template-columns: 315px 1fr;
   }
+
   .header__paragraph__title {
     max-width: 491px;
   }
+
   .second__section .paragraph__question {
     max-width: 315px;
   }
+
   .horizontal__articles {
     grid-template-columns: repeat(3, 1fr);
   }
+
   .sunset {
     max-height: 260px;
   }
+  
   .ice-cream {
     max-height: 595px;
   }
+  
   .tape {
     max-height: 768px;
   }
+  
   .books {
     max-height: 315px;
   }
+  
   .street {
     max-height: 428px;
   }
