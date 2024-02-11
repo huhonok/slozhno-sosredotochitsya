@@ -244,7 +244,7 @@
   width: 100%;
 }
 
-.second__section {
+.body__section__horizontal__articles {
   display: grid;
   gap: 20px;
   grid-template-rows: min-content 1fr;
@@ -338,7 +338,7 @@
     max-width: 364px;
   }
 
-  .second__section .paragraph__question {
+  .body__section__horizontal__articles .paragraph__question {
     max-width: 236px;
   }
 
@@ -390,7 +390,7 @@
     max-width: 491px;
   }
 
-  .second__section .paragraph__question {
+  .body__section__horizontal__articles .paragraph__question {
     max-width: 315px;
   }
 
@@ -421,8 +421,6 @@
 
 .header__theme-menu-button_active {
   pointer-events: none;
+  outline: var(--menu-active-button-border-style);
 }
-
-
-
 

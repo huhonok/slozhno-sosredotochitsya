@@ -25,6 +25,7 @@
 
   --border-style: 1px solid #ff0070;
   --menu-button-border-style: 1px solid rgba(255, 0, 112, 0.4);
+  --menu-active-button-border-style: 1px solid #FF0070;
   --display-element-value: block;
 }
 
@@ -46,6 +47,7 @@
 
     --border-style: 1px solid #ff0070;
     --menu-button-border-style: 1px solid rgba(255, 0, 112, 0.4);
+    --menu-active-button-border-style: 1px solid #FF0070;
     --display-element-value: block;
   }
 }
