@@ -10,12 +10,13 @@
   background-position: center;
   display: flex;
   flex-direction: column;
-  gap: 40px;
-  justify-content: center;
+  justify-content: space-evenly;
+  row-gap: 40px;
 }
 
 .header,
 .footer {
+  box-sizing: border-box;
   padding: var(--padding) var(--padding);
   display: grid;
   align-items: center;
@@ -209,6 +210,7 @@
 
 .footer__title {
   justify-self: center;
+  align-self: center;
 }
 
 .main {
@@ -312,9 +314,10 @@
   }
 
   .page {
-    gap: 60px;
+    row-gap: 60px;
   }
 }
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .header,
   .footer {
